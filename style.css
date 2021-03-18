@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    padding-top: 4rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.featured-paragraph {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 600px;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2);
+}
+
+.video-text{
+    padding: 5rem 3rem;
+    max-width: 500px;
+}
